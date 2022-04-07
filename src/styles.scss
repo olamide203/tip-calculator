@@ -123,13 +123,13 @@ body {
         //     left: -24px;
         // }
     }
-    h5 {
+    h1 {
         position: relative;
         color: $white;
         font-size: 0.6rem;
         line-height: 1rem;
     }
-    h5::after {
+    h1::after {
         content: "/ Person";
         color: $dark-grayish-cyan;
         position: absolute;

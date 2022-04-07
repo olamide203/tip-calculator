@@ -150,14 +150,14 @@ body {
   position: relative;
 }
 
-.summary__component h5 {
+.summary__component h1 {
   position: relative;
   color: white;
   font-size: 0.6rem;
   line-height: 1rem;
 }
 
-.summary__component h5::after {
+.summary__component h1::after {
   content: "/ Person";
   color: #5e7a7d;
   position: absolute;
