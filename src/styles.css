@@ -25,7 +25,7 @@ body {
 }
 
 .main {
-  margin: auto 0;
+  padding-top: 100px;
   display: -ms-grid;
   display: grid;
   min-height: 100vh;
@@ -43,9 +43,9 @@ body {
   width: 87px;
   -ms-grid-column-align: center;
       justify-self: center;
-  -ms-flex-item-align: end;
-      -ms-grid-row-align: end;
-      align-self: end;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
 }
 
 .card {
@@ -59,8 +59,8 @@ body {
   padding: 30px;
   border-radius: 25px;
   width: 60%;
-  -ms-grid-row-align: center;
-      align-self: center;
+  -ms-grid-row-align: start;
+      align-self: start;
   -ms-grid-column-align: center;
       justify-self: center;
 }

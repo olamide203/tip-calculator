@@ -29,7 +29,7 @@ body {
     background: $light-grayish-cyan;
 }
 .main {
-    margin: auto 0;
+    padding-top: 100px;
     display: grid;
     min-height: 100vh;
     display: grid;
@@ -42,7 +42,7 @@ body {
     height: 54px;
     width: 87px;
     justify-self: center;
-    align-self: end;
+    align-self: start;
 }
 
 .card {
@@ -54,7 +54,7 @@ body {
     padding: 30px;
     border-radius: 25px;
     width: 60%;
-    align-self: center;
+    align-self: start;
     justify-self: center;
     &__body {
         display: grid;
