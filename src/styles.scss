@@ -31,9 +31,10 @@ body {
 .main {
     padding-top: 100px;
     display: grid;
+    grid-template-rows: auto 1fr;
     min-height: 100vh;
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 60px;
     align-items: center;
 }
 .logo {
