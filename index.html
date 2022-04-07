@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Tip calculator app</title>
+        <link rel="stylesheet" href="./src/styles.css" />
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <!-- <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style> -->
+    </head>
+    <body>
+        <main class="main">
+            <div class="logo"></div>
+            <div class="card">
+                <div class="card__body">
+                    <div class="card__input">
+                        <label for="amount" class="card__desc">Bill</label>
+                        <input type="text" id="amount" placeholder="0" />
+                    </div>
+                    <div class="card__options">
+                        <h6 class="card__desc">Select Tip %</h6>
+                        <button class="card__tip" data-percentage="5">
+                            5%
+                        </button>
+                        <button class="card__tip" data-percentage="10">
+                            10%
+                        </button>
+                        <button class="card__tip" data-percentage="15">
+                            15%
+                        </button>
+                        <button class="card__tip" data-percentage="25">
+                            25%
+                        </button>
+                        <button class="card__tip" data-percentage="50">
+                            50%
+                        </button>
+                        <input
+                            type="text"
+                            placeholder="Custom"
+                            class="card__tip tip-custom"
+                            id="percentageTip"
+                        />
+                    </div>
+                    <div class="card__input">
+                        <label for="people" class="card__desc"
+                            >Number of People</label
+                        >
+                        <input type="text" id="people" placeholder="0" />
+                    </div>
+                </div>
+                <div class="card__summary">
+                    <div class="summary__component">
+                        <h5 class="">Tip Amount</h5>
+                        <h1 id="tip"></h1>
+                    </div>
+                    <div class="summary__component">
+                        <h5 class="">Total</h5>
+                        <h1 id="total"></h1>
+                    </div>
+                    <button class="card__reset disabled">RESET</button>
+                </div>
+            </div>
+        </main>
+        <footer class="attribution">
+            <p>
+                Challenge by
+                <a
+                    href="https://www.frontendmentor.io?ref=challenge"
+                    target="_blank"
+                    >Frontend Mentor.</a
+                >
+                Coded by
+                <a href="https://github.com/olamide203">Olamide Atitebi</a>.
+            </p>
+        </footer>
+        <script src="./src/Bill.js" type="module"></script>
+        <script src="./src/app.js" type="module"></script>
+    </body>
+</html>
