@@ -9,6 +9,7 @@ const tips = document.querySelector(".card__options");
 const resetBtn = document.querySelector(".card__reset");
 const people = document.getElementById("people");
 const tip = document.getElementById("tip");
+const customTip = document.getElementById("percentageTip");
 const total = document.getElementById("total");
 bill.split();
 displayBill();
@@ -19,6 +20,7 @@ card.addEventListener("beforeinput", validateInput);
 tips.addEventListener("mousedown", handleUserTip);
 people.addEventListener("blur", handleBlur);
 resetBtn.addEventListener("click", resetApp);
+customTip.addEventListener("beforeinput", setTipLimit);
 
 function handleUserInput(event) {
     setUserData(event.target.id, event.target.value);
@@ -73,8 +75,18 @@ function validateInput(event) {
     if (!re.test(`${event.target.value}${event.data ? event.data : ""}`)) {
         event.preventDefault();
     }
+    if (parseInt(event.target.value.length) > 18 && event.data) {
+        event.preventDefault();
+    }
 }
 
+// limit tip percent
+
+function setTipLimit(event) {
+    if (parseInt(event.target.value.length) > 3 && event.data) {
+        event.preventDefault();
+    }
+}
 function handleBlur(event) {
     if (!event.target.value.trim()) {
         return event.target.parentElement.classList.add("invalid");
