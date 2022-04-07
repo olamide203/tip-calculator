@@ -29,12 +29,11 @@ body {
     background: $light-grayish-cyan;
 }
 .main {
-    padding-top: 100px;
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto auto;
     min-height: 100vh;
     display: grid;
-    grid-gap: 60px;
+    grid-gap: 100px;
     align-items: center;
 }
 .logo {
@@ -43,7 +42,7 @@ body {
     height: 54px;
     width: 87px;
     justify-self: center;
-    align-self: start;
+    align-self: end;
 }
 
 .card {
