@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution URL: [tip-calculator](https://your-solution-url.com)
+-   Live Site URL: [tip-calculator](https://olamide203.github.io/tip-calculator/)
 
 ## My process
 
@@ -43,5 +43,5 @@ Users should be able to:
 
 ## Author
 
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/olamide203)
+-   Frontend Mentor - [@olamide203](https://www.frontendmentor.io/profile/olamide203)
 -   Twitter - [@olamide_farouq](https://www.twitter.com/olamide_farouq)
