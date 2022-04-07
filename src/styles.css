@@ -136,7 +136,7 @@ body {
   padding: 20px 0;
 }
 
-.summary__component h6 {
+.summary__component h2 {
   grid-column: span 1;
   word-wrap: break-word;
   word-break: break-all;
@@ -311,7 +311,7 @@ input:focus {
         grid-template-columns: 1fr;
     width: 70%;
   }
-  .summary__component h6 {
+  .summary__component h2 {
     font-size: 1.2rem;
   }
 }
